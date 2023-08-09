@@ -3,14 +3,16 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - ipywidgets
-  - ipykernel
-  - matplotlib
-  - ipython
-  - python=3.8
-  - numpy
-  - scipy
-  - python-sounddevice
-  - ipympl
-  - ipytone
+  - jupyterlab=4.0.3
+  - ipywidgets=8.0.4
+  - ipykernel=6.19.2
+  - matplotlib=3.7.1
+  - ipython=8.12.0
+  - python=3.8.17
+  - numpy=1.24.3
+  - scipy=1.10.1
+  - python-sounddevice=0.4.6
+  - ipympl=0.9.3
+  - ipytone=0.5.1
+  - librosa=0.10.0
 prefix: /Users/sambt/anaconda3/envs/audio
